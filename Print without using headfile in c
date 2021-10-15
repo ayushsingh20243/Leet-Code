@@ -1,0 +1,15 @@
+Program to print hello world without using header file C
+
+extern "C"
+{
+int printf(const char *format);
+}
+
+using namespace std;
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
