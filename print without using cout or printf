@@ -1,0 +1,7 @@
+Program to print hello world without using printf or cout 
+
+#include<stdio.h>
+int main(){
+  puts("hello world");
+  return 0;
+}
