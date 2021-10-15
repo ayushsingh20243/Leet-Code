@@ -1,0 +1,11 @@
+print hello world without using main Function C
+
+#include <stdio.h>
+  
+#define x main
+  
+void x()
+{
+    if (printf("Hello World")) {
+    }
+}
